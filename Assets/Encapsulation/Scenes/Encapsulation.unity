@@ -6664,6 +6664,7 @@ GameObject:
   - component: {fileID: 1707532609}
   - component: {fileID: 1707532612}
   - component: {fileID: 1707532611}
+  - component: {fileID: 1707532613}
   m_Layer: 0
   m_Name: Mute
   m_TagString: Untagged
@@ -6715,6 +6716,25 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707532608}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1707532613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707532608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b617809a560476542976b44fac6588b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tv: {fileID: 2025203936}
+  direction: 0
+  sfx_turnKnob: {fileID: 8300000, guid: c17d2b14616252940b3ee13de4ec91d2, type: 3}
+  asource: {fileID: 0}
+  onClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1815862797
 GameObject:
   m_ObjectHideFlags: 0
